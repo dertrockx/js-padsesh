@@ -69,7 +69,7 @@ console.log("name = ", name);
 
 // Null: represents intentional absence of any object value; is treated as 'falsy' for boolean operations
 name = null;
-console.log("name = ", name);
+console.log("name = ", name);boolean
 
 // 'typeof' operator can be used to find the type of a variable/expression
 console.log(typeof num1);
@@ -127,7 +127,10 @@ console.log(message);
 // TODO:
 // Choose your favorite pokemon, store it in a variable, and use it in string interpolation with a string format "I choose you, ${pokemon}!"
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 // ================ END OF STRING OPERATIONS ================
 
 // ================ START OF ARRAYS AND OBJECTS ================
@@ -135,7 +138,7 @@ console.log(message);
     Arrays are a special type of objects that uses "numbers" (index)
     to access its "elements".
 */
-let arr1 = ["septile", "torchic", "mudkip", "absol"];
+let arr1 = ["sceptile", "torchic", "mudkip", "absol"];
 console.log(arr1);
 console.log(`arr1[0]: ${arr1[0]}`); // Prints the 1st element of arr1
 
@@ -340,6 +343,7 @@ const add2 = (x, y) => {
 // shorthand version using ES6 function
 const add3 = (x, y) => x + y;
 
+<<<<<<< HEAD
 
 
 // TODO:
@@ -347,4 +351,9 @@ const add3 = (x, y) => x + y;
 
 
 
+=======
+// TODO:
+// Create a Fat Arrow Function(shorthand version) that accepts two number and returns the product
+
+>>>>>>> origin/master
 // ============== END OF FUNCTIONS ==================
