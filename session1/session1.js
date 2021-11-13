@@ -30,7 +30,7 @@ var name = "Jane"; // These declarations will not produce an error
       - It is block-scoped and is usually used in for-loops and function blocks
 */
 let age;
-console.log("age = ", age); // this will throw an error since age is not initialized
+// console.log("age = ", age); // this will throw an error since age is not initialized
 age = 18;
 let age = 25; // this will also throw an error since 'age' has already been declared
 
@@ -123,6 +123,11 @@ const message = `Welcome, ${username}!`;
 console.log(message);
 
 // *For more string methods, you may visit https://www.w3schools.com/js/js_string_methods.asp
+
+// TODO:
+// Choose your favorite pokemon, store it in a variable, and use it in string interpolation with a string format "I choose you, ${pokemon}!"
+
+
 // ================ END OF STRING OPERATIONS ================
 
 // ================ START OF ARRAYS AND OBJECTS ================
@@ -157,6 +162,12 @@ const user = {
 // Object destructuring
 const { first_name: first_name, middle_initial, last_name: last_name } = user;
 console.log(`${first_name} ${middle_initial} ${last_name}`);
+
+// TODO:
+// ["sceptile", "torchic", "mudkip", "absol"];
+// ["treecko", "blaziken", "swampert", "lucario"]
+// Combine the two arrays above using spread operator
+
 // ================= END OF ARRAYS AND OBJECTS =================
 
 // ============== START OF Loops ==================
@@ -209,8 +220,9 @@ for (const [index, element] of array.entries()) {
 	console.log(`${index}: ${element}`);
 }
 
-array.forEach(function (element, index) {
-	console.log(`${index}: ${element}`);
+array.forEach((element, index) => {
+	const e = element + index;
+  console.log(e)
 });
 
 // Object Iteration
@@ -321,10 +333,18 @@ function add(x, y) {
 
 // Function format 2: ES6 Function ( aka Fat Arrow Function )
 const add2 = (x, y) => {
+
 	return x + y;
 };
 
 // shorthand version using ES6 function
 const add3 = (x, y) => x + y;
+
+
+
+// TODO:
+// Create a Fat Arrow Function(shorthand version) that accepts two number and returns the product
+
+
 
 // ============== END OF FUNCTIONS ==================
