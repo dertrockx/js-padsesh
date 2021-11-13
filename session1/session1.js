@@ -127,10 +127,7 @@ console.log(message);
 // TODO:
 // Choose your favorite pokemon, store it in a variable, and use it in string interpolation with a string format "I choose you, ${pokemon}!"
 
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/master
 // ================ END OF STRING OPERATIONS ================
 
 // ================ START OF ARRAYS AND OBJECTS ================
@@ -343,17 +340,8 @@ const add2 = (x, y) => {
 // shorthand version using ES6 function
 const add3 = (x, y) => x + y;
 
-<<<<<<< HEAD
-
 
 // TODO:
 // Create a Fat Arrow Function(shorthand version) that accepts two number and returns the product
 
-
-
-=======
-// TODO:
-// Create a Fat Arrow Function(shorthand version) that accepts two number and returns the product
-
->>>>>>> origin/master
 // ============== END OF FUNCTIONS ==================
