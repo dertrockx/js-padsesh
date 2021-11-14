@@ -1,0 +1,22 @@
+{
+  "name": "js-padsesh",
+  "version": "1.0.0",
+  "description": "Repository used during JS Session by PAD and Scho A.Y. 2021-2022",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dertrockx/js-padsesh.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dertrockx/js-padsesh/issues"
+  },
+  "homepage": "https://github.com/dertrockx/js-padsesh#readme",
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
+}
